@@ -6,7 +6,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "lerna run build"
+    "build": "lerna run build",
+    "clean": "lerna run clean",
+    "lint": "lerna run lint",
+    "test": "lerna run test"
   },
   "keywords": [],
   "author": "",
@@ -27,8 +30,5 @@
     "tsutils": "^3.21.0",
     "typescript": "^5.0.2",
     "nx": "15.8.6"
-  },
-  "workspaces": [
-    "packages/*"
-  ]
+  }
 }
