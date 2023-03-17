@@ -1,0 +1,8 @@
+{
+  "$schema": "https://unpkg.com/lerna@latest/schemas/lerna-schema.json",
+  "npmClient": "pnpm",
+  "useWorkspaces": true,
+    "packages": [
+        "packages/*"
+    ]
+}

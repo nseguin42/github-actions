@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/prettierrc",
+  "singleQuote": true,
+  "trailingComma": "none",
+  "overrides": [
+    {
+      "files": [
+        "*.ts",
+        "*.mts",
+        "*.tsx",
+        "*.json"
+      ],
+      "options": {
+        "parser": "typescript"
+      }
+    }
+  ],
+  "printWidth": 100
+}
