@@ -6,7 +6,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "lerna run build"
   },
   "keywords": [],
   "author": "",
@@ -25,7 +25,8 @@
     "rimraf": "^4.4.0",
     "ts-jest": "^29.0.5",
     "tsutils": "^3.21.0",
-    "typescript": "^5.0.2"
+    "typescript": "^5.0.2",
+    "nx": "15.8.6"
   },
   "workspaces": [
     "packages/*"
